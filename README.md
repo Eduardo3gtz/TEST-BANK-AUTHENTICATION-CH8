@@ -1,5 +1,8 @@
 BANK APPLICATION SIMULATION – SPRINT 3
 
+Directory of the archive simulation
+src/main/java/com/ch8/tests_bank_ch8
+
 Requirements:
 - Java Development Kit (JDK 17 or later) – Free
 - Any Java IDE (NetBeans IDE recommended, IntelliJ is also valid) – Free
