@@ -1,7 +1,7 @@
 BANK APPLICATION SIMULATION – SPRINT 3
 
 Directory of the archive simulation
-src/main/java/com/ch8/tests_bank_ch8
+src/main/java/com/ch8/tests_bank_ch8/simulation
 
 Requirements:
 - Java Development Kit (JDK 17 or later) – Free
