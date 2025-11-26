@@ -1,29 +1,3 @@
-# TEST-BANK-AUTHENTICATION-CH8
-
-Tests
-To test the tests, simply run the operation controller test section.
-
-To run the program, run the testbankapplication and use Postman.
-
-h2 database page
-http://localhost:8081/h2-console/login.jsp
-
-jdbbbc url jdbc:h2:mem:testdb
-user name sa
-
-postman
-post http://localhost:8081/api/operations
-
-````
-{
-  "bankCode": "2025",
-  "branchCode": "3340",
-  "accountNumber": "1848794772",
-  "personalKey": "Rrd1848794"
-}
-````
-get http://localhost:8081/api/operations
-
 BANK APPLICATION SIMULATION – SPRINT 3
 
 Requirements:
@@ -57,3 +31,30 @@ It runs three test cases:
 - An invalid case
 
 Each case prints input data, validation result, and error details if needed.
+
+
+# TEST-BANK-AUTHENTICATION-CH8
+
+Tests
+To test the tests, simply run the operation controller test section.
+
+To run the program, run the testbankapplication and use Postman.
+
+h2 database page
+http://localhost:8081/h2-console/login.jsp
+
+jdbbbc url jdbc:h2:mem:testdb
+user name sa
+
+postman
+post http://localhost:8081/api/operations
+
+````
+{
+  "bankCode": "2025",
+  "branchCode": "3340",
+  "accountNumber": "1848794772",
+  "personalKey": "Rrd1848794"
+}
+````
+get http://localhost:8081/api/operations
